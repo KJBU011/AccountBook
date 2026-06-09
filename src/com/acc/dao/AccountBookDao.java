@@ -272,11 +272,12 @@ public class AccountBookDao implements AccountBookDaoInterface {
 				find = true;
 				break;
 			}
-			if(find == false) {
-				System.out.println("------------------------------------------");
-				System.out.println("[검색 결과를 찾을 수 없습니다]");
-			}
 		}
+		if(find == false) {
+			System.out.println("------------------------------------------");
+			System.out.println("[검색 결과를 찾을 수 없습니다]");
+		}
+		
 
 	}
 
